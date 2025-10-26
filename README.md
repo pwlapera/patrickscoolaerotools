@@ -10,6 +10,9 @@ It is also a tool to practice my C++ skills, which are also a work in progress.
 
 The long term goal for patrickscoolaerotools is to become something game devs can plug into popular game engines to make their aircraft behave plausibly.
 
+October 26 update:
+-Fixed a bug which caused the temperature to be thousands of degrees C in the upper atmosphere
+-The program no longer displays calculation for your wing and the Cessna wing comparison on the same command line
 
 Planned features:
 - Answers that are less flagrantly wrong (low priority)
@@ -19,3 +22,5 @@ Planned features:
 - Density calculations that can incorporate humidity
 - Density calculations from any ground level, not just sea level
 - The ability to create your own atmospheres for custom planets
+- Headwind and tailwind calculations
+- Drag calculations

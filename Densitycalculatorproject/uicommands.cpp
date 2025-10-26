@@ -65,7 +65,7 @@ void printWingArea(double wingArea)
 
 double getSpeedinKnots() //this gets the airspeed from the user
 {
-	std::cout << " Enter a speed in Knots: ";
+	std::cout << "Enter a speed in Knots: ";
 	double airSpeedinKnots{};
 	std::cin >> airSpeedinKnots;
 
@@ -75,7 +75,7 @@ double getSpeedinKnots() //this gets the airspeed from the user
 void printC172Comparison(double liftN) 
 {
 
-	std::cout << "At the given altitude and speed, a Cessna 172's wings generate approximately " << liftN << " Newtons of lift.";
+	std::cout << "At the given altitude and speed, a Cessna 172's wings generate approximately " << liftN << " Newtons of lift." << '\n';
 
 }
 
@@ -84,13 +84,13 @@ void printWingLift(double liftN)
 {
 	double liftBothWings{ liftN * 2 };
 
-	std::cout << "At the given altitude and speed, your plane's main wings generate approximately " << liftBothWings << " Newtons of lift.";
+	std::cout << "At the given altitude and speed, your plane's main wings generate approximately " << liftBothWings << " Newtons of lift." << '\n';
 
 }
 
 double getLiftCoeffecient() //this gets the airspeed from the user
 {
-	std::cout << " Enter your wing's lift coeffecient: ";
+	std::cout << "Enter your wing's lift coeffecient: ";
 	double Cl{};
 	std::cin >> Cl;
 

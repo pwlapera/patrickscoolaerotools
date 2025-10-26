@@ -14,11 +14,15 @@ double calculateTempAtAltitude(double aslK, double altM)// this determines what 
 	if (altM > 11000 && altM <= 25000)
 	{
 		double tempalt = 216.69;
+
+		return tempalt;
 	}
 
 	if (altM > 25000 && altM <= 100000)
 	{
-		double tempalt = 141.94 + .00299 * altM;
+		double tempalt = 141.94 + .00299*altM;
+
+		return tempalt;
 	}
 
 }
@@ -42,7 +46,7 @@ double calculatekPaAtALT(double aslkPa ,double altTempK, double altM) //determin
 	
 	if (altM > 25000 && altM <= 100000)
 	{
-		double kPaAlt = 2.488 * pow((altTempK/216.6),-11/388); //this is the equation for the upper stratosphere.the temp increases exponentially
+		double kPaAlt = 2.488 * pow((altTempK/216.6),-11.388); //this is the equation for the upper stratosphere.the temp increases exponentially
 		//std::cout << "You are in the upper stratosphere. " << '\n';
 		return kPaAlt;
 	}

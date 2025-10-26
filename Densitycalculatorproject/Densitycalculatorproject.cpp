@@ -42,7 +42,6 @@ int main()
 	double liftN{ liftCalculations::calculateLift(Cl,wingArea,speedMS,airkgm3) };
 	double liftNC{ liftCalculations::calculateLiftOfACessna172(speedMS,airkgm3) };
 	printWingLift(liftN);
-	'\n';
 	printC172Comparison(liftNC);
 
 	return 0;

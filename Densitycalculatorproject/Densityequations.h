@@ -13,6 +13,7 @@ double getSpeedinKnots();
 void printC172Comparison(double liftN);
 void printWingLift(double liftN);
 double getLiftCoeffecient();
+void printAtmoInfAtAlt(double objectALT, double altitudeInMeters, double F, double groundTempInC, double groundTempInK, double airTempInK, double airkPa, double airkgm3);
 
 
 // unit conversions

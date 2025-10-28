@@ -19,14 +19,8 @@ int main()
 	double airkPa{ calculatekPaAtALT(airPressureASL,airTempInK, altitudeInMeters) };
 	double airkgm3{ calculateDensityAtALT(airkPa, airTempInK) };
 
-	
-	//Outputs the atmpspheric calculations to the user
-	std::cout << objectALT << " ft. is " << altitudeInMeters << " M. " << '\n';
-	std::cout << F << " F. is " << groundTempInC << " C. " << '\n';
-	std::cout << groundTempInC << " C. is " << groundTempInK << " K. " << '\n';
-	std::cout <<  "The air temperature at " << altitudeInMeters << " is " << airTempInK - 273.1 << " C. " << '\n';
-	std::cout << "The air pressure at " << altitudeInMeters << " is " << airkPa << " kPa. " << '\n';
-	std::cout << "The air density at " << altitudeInMeters << " is " << airkgm3 << " kg/cm3. " << '\n';
+	printAtmoInfAtAlt(objectALT, altitudeInMeters, F, groundTempInC,
+		groundTempInK, airTempInK, airkPa, airkgm3);
 
 	printAtmosphereLayer(altitudeInMeters); '\n';
 

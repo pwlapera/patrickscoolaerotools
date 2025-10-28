@@ -60,7 +60,7 @@ double calculatekPaAtALT(double aslkPa ,double altTempK, double altM) //determin
 
 }
 
-double calculateDensityAtALT(double kPaAlt, double kalt) // this gives you the density in kg/cm3
+double calculateDensityAtALT(double kPaAlt, double kalt) // this gives you the density in kg/m3
 {
 
 	double kgm3 = kPaAlt/(.2869*kalt);

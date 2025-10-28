@@ -127,7 +127,6 @@
     <ClCompile Include="..\..\..\..\Documents\Learningtocode\Liftequationpractice\Liftequationpractice\LiftFunctions.cpp" />
     <ClCompile Include="Densitycalculatorproject.cpp" />
     <ClCompile Include="Densityequations.cpp" />
-    <ClCompile Include="physicsvalues.cpp" />
     <ClCompile Include="uicommands.cpp" />
     <ClCompile Include="unitconversions.cpp" />
   </ItemGroup>

@@ -27,9 +27,6 @@
     <ClCompile Include="unitconversions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="physicsvalues.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\Documents\Learningtocode\Liftequationpractice\Liftequationpractice\LiftFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

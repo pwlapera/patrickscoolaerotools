@@ -97,3 +97,13 @@ double getLiftCoeffecient() //this gets the airspeed from the user
 	return Cl;
 }
 
+void printAtmoInfAtAlt(double objectALT, double altitudeInMeters, double F, double groundTempInC, double groundTempInK, double airTempInK, double airkPa, double airkgm3)
+{
+	std::cout << objectALT << " ft. is " << altitudeInMeters << " M. " << '\n';
+	std::cout << F << " F. is " << groundTempInC << " C. " << '\n';
+	std::cout << groundTempInC << " C. is " << groundTempInK << " K. " << '\n';
+	std::cout << "The air temperature at " << altitudeInMeters << " is " << airTempInK - 273.1 << " C. " << '\n';
+	std::cout << "The air pressure at " << altitudeInMeters << " is " << airkPa << " kPa. " << '\n';
+	std::cout << "The air density at " << altitudeInMeters << " is " << airkgm3 << " kg/m3. " << '\n';
+
+}

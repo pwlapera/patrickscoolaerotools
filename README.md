@@ -1,4 +1,6 @@
-patrickscoolaerotools is still a work in progress
+IMPORTANT WARNING DISCLAIMER: Pilots should not under any circumstances use patrickscoolaerotools to set their altimeter or do any sort of calculaton related to the operation of an aircraft or any other sort of vehicle. patrickscoolaerotools does NOT use the FAA formulas for atmospheric density and therefore is almost certain to result in an incorrect altimeter setting. patrickscoolaerotools is a tool to help people create plausible behaviors in video games, not to predict real-world phenomenon. 
+
+patrickscoolaerotools currently a work in progress with very limited functionality
 
 The goal of patrickscoolaerotools is not total accuracy. The goal is to get approximate answers which can be used to create plausible behaviors in things like video games. 
 

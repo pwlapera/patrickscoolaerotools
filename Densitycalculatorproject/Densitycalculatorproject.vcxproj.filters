@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Densitycalculatorproject.cpp">
+    <ClCompile Include="PCATmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Densityequations.cpp">
@@ -27,16 +27,25 @@
     <ClCompile Include="unitconversions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Learningtocode\Liftequationpractice\Liftequationpractice\LiftFunctions.cpp">
+    <ClCompile Include="mainFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="liftfuncV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Atmosphere Maker Tool Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Densityequations.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="coolaerotoolsmasterheader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PhysicsValues.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="pcatMainFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcatconstants.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

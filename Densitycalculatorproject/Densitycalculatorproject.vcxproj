@@ -124,15 +124,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\Learningtocode\Liftequationpractice\Liftequationpractice\LiftFunctions.cpp" />
-    <ClCompile Include="Densitycalculatorproject.cpp" />
+    <ClCompile Include="Atmosphere Maker Tool Functions.cpp" />
+    <ClCompile Include="liftfuncV2.cpp" />
+    <ClCompile Include="PCATmain.cpp" />
     <ClCompile Include="Densityequations.cpp" />
+    <ClCompile Include="mainFunctions.cpp" />
     <ClCompile Include="uicommands.cpp" />
     <ClCompile Include="unitconversions.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Densityequations.h" />
-    <ClInclude Include="PhysicsValues.h" />
+    <ClInclude Include="coolaerotoolsmasterheader.h" />
+    <ClInclude Include="pcatconstants.h" />
+    <ClInclude Include="pcatMainFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

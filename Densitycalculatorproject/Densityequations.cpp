@@ -1,4 +1,5 @@
-#include "Densityequations.h"
+#include "coolaerotoolsmasterheader.h"
+#include "pcatconstants.h"
 #include <cmath>
 #include <iostream>
 
@@ -68,9 +69,14 @@ double calculateDensityAtALT(double kPaAlt, double kalt) // this gives you the d
 	return kgm3;
 
 }
+double calcAirDensityStandardModel(double altM) // calcultates the air density in kgm3 using the 1974 US standard model and their reference temps and pressures
+{
+double ALTtempK{ calculateTempAtAltitude(aeroConst::g_seaLevStandardTempK, altM) };
+double ALTkPA{ calculatekPaAtALT(aeroConst::g_seaLevStandardAtmosPressurekPa, ALTtempK, altM) };
+double ALTDensitykGm3{ calculateDensityAtALT(ALTkPA, ALTtempK) };
 
-
-
+return ALTDensitykGm3;
+}
 /*
 
 Full density equations for a given altitude in the troposphere

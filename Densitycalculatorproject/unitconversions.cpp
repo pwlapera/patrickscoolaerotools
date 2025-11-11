@@ -1,4 +1,5 @@
-#include "Densityequations.h"
+#include "coolaerotoolsmasterheader.h"
+#include "pcatconstants.h"
 #include <iostream>
 
 // these change any non metric values the user enters to the metric values we are using in our density calculations
@@ -34,4 +35,16 @@ double convertKnotsToMS(double x) // converts the speed to m/s
 
 	return airSpeedinMS;
 
+}
+
+double convlbsToKg(double weightlbs)
+{
+	double weightKg{ weightlbs * unitConv::g_lbsToKg };
+	return weightKg;
+}
+
+double convKgTolbs(double weightKg)
+{
+	double weightlbs{ weightKg * unitConv::g_lbsToKg };
+	return weightlbs;
 }

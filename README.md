@@ -1,10 +1,4 @@
-patrickscoolaerotools is an ever-expanding set of tools designed to help game designers create aircraft which behave in plausible and satisfying ways. 
-
-Create an atmosphere that's right for your game and gamespace, calculate your plane's in-game performance, compare it to the real world, and more. The goal of patrickscoolaerotools is not total accuracy but rather approximate answers which can be used to create plausible behaviors for planes that just feel "right", whether you're making a multiplayer FPS or a sim-lite flight game with a planet-sized world. 
-
-patrickscoolaerotools currently a work in progress with very limited functionality, but its capabilities are constantly increasing.
-
-The long term goal for patrickscoolaerotools is to become something game devs can plug into popular game engines, providing a lightweight solution that can serve as a base for whatever flight model best serves their game.
+So basically it's a bunch of functions which could potentially be helpful as a starting point when making a gtame with realistic aircraft. I fon't really have time to work on or maintain it
 
 Planned features:
 Performance envelope calculator: estimate the performance of the aircraft you're creating and compare it to real aircraft
